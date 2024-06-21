@@ -1,0 +1,13 @@
+<nav>
+    <a href="/"><h3 class="logo">ExpressAuth</h3></a>
+    <div>
+        <% if (user) { %>
+        <div>User</div>
+        <% } else { %>
+        <div>
+            <a href="/login" class="button login">Sign In</a>
+            <a href="/register" class="button register">Get Started</a>
+        </div>
+        <%}%>
+    </div>
+</nav>

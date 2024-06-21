@@ -1,0 +1,33 @@
+<section>
+    <div class="container h-full">
+        <div class="form__container">
+            <p class="form__title">Sign in</p>
+            <span class="form__description">to continue to the app</span>
+
+            <a href="#" class="button google" style="margin-top: 1rem">
+                <img src="/assets/Google.png" alt="google icon" />
+                Continue with Google
+            </a>
+            <a href="#" class="button github">
+                <img src="/assets/GitHub.png" alt="github icon" />
+                Continue with Github
+            </a>
+            <span class="divider">
+                <p>or</p>
+            </span>
+            <form method="post" id="login-form">
+                <div class="form__field">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$"/>
+                </div>
+                <div class="form__field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required/>
+                </div>
+                <button>Continue</button>
+            </form>
+
+            <p class="form__footer">No account? <a href="/register">Sign up</a></p>
+        </div>
+    </div>
+</section>
